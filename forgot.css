@@ -25,11 +25,12 @@ button {
     height: 50px;
     text-align: center;
     padding: 1em, 2em;
-    transition: transform 500ms;
+    transition: transform 200ms;
+    border-radius: 4rem;
 }
 button:hover,
 button:focus-visible{
-    transform: translateY(-1.75em);
+    transform: translateY(-0.75em);
 }
 
 a:hover{
