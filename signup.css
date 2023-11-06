@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: center;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(223, 26, 105);
+    padding-top: 3rem;
+    margin-left: 400px;
+    border-radius: 4rem;
+    box-shadow:5px 5px 20px 20px rgb(223, 252, 3) ;
+    background: transparent;
+   
+
+  
+}
+
+form input{
+    width: 70%;
+    padding-top: 7px;
+    margin-top: 1rem;
+    border-color: rgb(255, 255, 255) solid;
+    outline-color: rgb(105, 247, 10);
+    border-radius: .5rem;
+    border: none;
+    color: black;
+   
+    
+    
+
+}
+
+form button{
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: aqua;
+    border: none;
+}
+
+form a {
+    text-decoration: none;
+    color: rgb(237, 15, 15);
+}
+a:hover{
+    color: rgb(247, 247, 9);
+}
+body{
+   background-color: rgb(5, 5, 4);
+   background-image: url('./public/fantasy.jpg' );
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    color: rgb(239, 220, 220);
+}
+input{
+    color: white;
+    padding-right: 10px;text-align: center;
+   
+}
+
+.terms{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.agree{
+    padding-top: 15px;
+    margin-left: -450px;
+    margin-right: 100px;
+}
+
+.mami{
+    margin-left: -788px;
+}
+#pull{
+    width: 100px;
+    height: 50px;
+    border-radius: 4rem;
+   background-color:chocolate;
+   
+}
+/*label{
+    position: relative;
+    top: 50%;
+   
+    right: 70%;
+    bottom: 80%;
+}
+*/
+.elements{
+    position: relative;
+    margin-right: 350px;
+    bottom: 70%;
+    top: 50%;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#pull a{
+    text-decoration: none;
+}

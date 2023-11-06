@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    flex-basis: 50%;
+}
+section{
+    background-image: url("./public/bac5.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex-box1{
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.flex-box2{
+    display: flex;
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.item1{
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+.item2{
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.sub-item1{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4rem;
+    box-shadow: 3px 3px 15px 15px  rgb(181, 181, 35);
+    background: transparent;
+    background-image: url("./public/bac7.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(8, 7, 7);
+    max-height: auto;
+    
+}
+.sub1{
+    flex-basis: 33.33333333333%;
+    padding-left: 80px;
+    margin: 10px;
+ 
+    
+}
+.sub2{
+    flex-basis: 33.33333333333333%;
+    padding-left: 80px;
+    margin: 10px;
+  
+    
+}
+.sub3{
+    flex-basis: 33.333333333333333%;
+    padding-left: 80px;
+    margin: 10px;
+    
+   align-content: center;
+}
+#up{
+    margin-right: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(249, 246, 246);
+}
+#change{
+    font-family: sans-serif;
+    color: orangered;
+}
+blockquote{
+    font-family: sans-serif;
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#img{
+ 
+   margin-left: 150px;
+}
+form input{
+    width: 80%;
+    padding-top: 10px;
+    margin-top: 1rem;
+    border-color: rgb(255, 255, 255) solid;
+    outline-color: rgb(105, 247, 10);
+    border-radius: .5rem;
+}
+a:hover{
+    color: rgb(233, 1, 1);
+   
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+button{
+   background-color: rgb(57, 57, 184);
+   color: white;
+   width: 50%;
+   border-radius: 4rem;
+}
+label{
+    position: relative;
+    top: 10px;
+    bottom: 1px;
+    right: 80%;
+   
+    color: rgb(13, 13, 12);
+    transform: translateY(-50%);
+    font-size: 20px;
+    pointer-events: none;
+    float: right;
+}
+
