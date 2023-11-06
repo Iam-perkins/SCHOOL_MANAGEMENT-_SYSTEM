@@ -24,8 +24,14 @@ button {
     width: 100px;
     height: 50px;
     text-align: center;
-    border: 6rem;
+    padding: 1em, 2em;
+    transition: transform 500ms;
 }
+button:hover,
+button:focus-visible{
+    transform: translateY(-1.75em);
+}
+
 a:hover{
     color: yellow;
 }
